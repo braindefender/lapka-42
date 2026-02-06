@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "86802c69-dc1c-46d6-890c-a0f069aef8d4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 139.7 38.1)
+		(size 76.2 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "60182e08-65d4-4efe-8fbb-79fb9149c2ec")
+		(property "Sheetname" "Lapka42_Right"
+			(at 139.7 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lapka42_Right.kicad_sch"
+			(at 139.7 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 38.1)
+		(size 76.2 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7334de9-7a4d-470f-991f-f3ec182e1b8a")
+		(property "Sheetname" "Lapka42_Left"
+			(at 50.8 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lapka42_Left.kicad_sch"
+			(at 50.8 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

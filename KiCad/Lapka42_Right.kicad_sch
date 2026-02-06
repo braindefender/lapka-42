@@ -1,0 +1,5660 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fb89fa45-a387-4742-a198-835f6a568627")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "inpulib:BAT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 6.35 -2.54) (xy 6.35 2.54) (xy 3.81 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -6.35 2.54) (xy -6.35 -2.54) (xy -3.81 -2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT_1_1"
+				(pin power_in line
+					(at -11.43 0 0)
+					(length 5.08)
+					(name "B-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 0 180)
+					(length 5.08)
+					(name "B+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "inpulib:D_1N4448W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_1N4448W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1N4448W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "inpulib:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary push button, 2 pins"
+				(at -0.254 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "inpulib:U_ProMicro_nRF52840"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 19.304 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -26.67 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -26.67 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pro Micro nRF52840 microcontroller board symbol"
+				(at 0.508 -22.098 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "U_ProMicro_nRF52840_1_1"
+				(rectangle
+					(start -12.7 21.59)
+					(end 12.7 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -17.78 16.51 0)
+					(length 5.08)
+					(name "B-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 13.97 0)
+					(length 5.08)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 11.43 0)
+					(length 5.08)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 3.81 0)
+					(length 5.08)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 1.27 0)
+					(length 5.08)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -1.27 0)
+					(length 5.08)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -3.81 0)
+					(length 5.08)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -6.35 0)
+					(length 5.08)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -8.89 0)
+					(length 5.08)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -11.43 0)
+					(length 5.08)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -13.97 0)
+					(length 5.08)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 16.51 180)
+					(length 5.08)
+					(name "B+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 13.97 180)
+					(length 5.08)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 11.43 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 8.89 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 6.35 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 3.81 180)
+					(length 5.08)
+					(name "D21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 1.27 180)
+					(length 5.08)
+					(name "D20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -1.27 180)
+					(length 5.08)
+					(name "D19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -3.81 180)
+					(length 5.08)
+					(name "D18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -6.35 180)
+					(length 5.08)
+					(name "D15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -8.89 180)
+					(length 5.08)
+					(name "D14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -11.43 180)
+					(length 5.08)
+					(name "D16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -13.97 180)
+					(length 5.08)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 152.4 115.57)
+		(end 210.82 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c6f8474-b6d9-4625-b660-e3953737fc74)
+	)
+	(rectangle
+		(start 152.4 115.57)
+		(end 210.82 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5124d1ba-6b65-4a03-9b39-885066c0e732)
+	)
+	(rectangle
+		(start 38.1 67.31)
+		(end 137.16 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 62d25f92-5419-4543-a668-10063dd43b0a)
+	)
+	(rectangle
+		(start 38.1 63.5)
+		(end 137.16 67.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6f65c6a5-400b-4431-8911-304d985a7824)
+	)
+	(rectangle
+		(start 152.4 63.5)
+		(end 210.82 67.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b95ef1e-5124-4e6d-8826-aa469451a67d)
+	)
+	(rectangle
+		(start 152.4 67.31)
+		(end 210.82 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 872fb6e3-3445-4535-8b25-2d97ed06c08a)
+	)
+	(rectangle
+		(start 213.36 115.57)
+		(end 271.78 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c8254fe2-d0bd-4281-8e19-37ffae0205c1)
+	)
+	(rectangle
+		(start 213.36 115.57)
+		(end 271.78 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e7ab276c-ebdf-4698-9fa8-b3a296389093)
+	)
+	(text "Battery Connector\n"
+		(exclude_from_sim no)
+		(at 214.376 117.856 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+			(justify left)
+		)
+		(uuid "11f16102-298b-437f-a368-bd3212c34b8b")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 153.67 65.786 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+			(justify left)
+		)
+		(uuid "4a895fb1-b8bf-4faa-a04a-c5a350a946cb")
+	)
+	(text "Matrix"
+		(exclude_from_sim no)
+		(at 42.164 65.786 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(uuid "99acb831-31bb-431a-8da3-18182d6f24b2")
+	)
+	(text "Reset"
+		(exclude_from_sim no)
+		(at 153.67 117.856 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+			(justify left)
+		)
+		(uuid "a847bfb0-284a-43b6-a718-26795e847c21")
+	)
+	(junction
+		(at 93.98 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f3f45e9-42f9-42f6-a517-9777690d0b41")
+	)
+	(junction
+		(at 81.28 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c0946d3-f121-44b1-9816-049a2fa808a3")
+	)
+	(junction
+		(at 119.38 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2085e1c2-f500-4b1e-b213-17131bbaf163")
+	)
+	(junction
+		(at 96.52 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25911cc9-d204-43f6-aa71-c517080badf0")
+	)
+	(junction
+		(at 45.72 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "472ed7f5-78cb-4d3f-a1f0-d56b73656ffe")
+	)
+	(junction
+		(at 71.12 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a06a502-3be0-446c-8f77-8234fed6c7b4")
+	)
+	(junction
+		(at 106.68 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b4fcf56-3af7-4e12-8b1d-7976922460fe")
+	)
+	(junction
+		(at 106.68 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d61c94e-73e6-4e5d-b9f2-38590ac97e8b")
+	)
+	(junction
+		(at 93.98 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d7ac2c6-7779-4c88-82d9-447c69500a31")
+	)
+	(junction
+		(at 68.58 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50de12b3-de4d-4b06-89d3-66f318271321")
+	)
+	(junction
+		(at 58.42 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6122d586-d8c3-4dcb-924f-d4328dc90879")
+	)
+	(junction
+		(at 109.22 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67330ed8-6033-4760-b971-d6b771e9710c")
+	)
+	(junction
+		(at 96.52 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "681cf877-e334-4dd7-a5a8-4682f7e3858c")
+	)
+	(junction
+		(at 83.82 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "739fcfc2-353d-4b6c-97b5-96b83b3a2dcc")
+	)
+	(junction
+		(at 93.98 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "798b5525-e4aa-4e33-9126-4a13a3472ad7")
+	)
+	(junction
+		(at 71.12 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84226b47-cb79-4a0e-9d4d-b0236fa9bdbc")
+	)
+	(junction
+		(at 68.58 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85814c07-9bca-428b-b74b-80a904a70d91")
+	)
+	(junction
+		(at 68.58 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85edeb00-5cb6-402c-90c2-106965c6ad4e")
+	)
+	(junction
+		(at 106.68 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8723e7de-81bc-4cec-b20a-e385d1cd8b76")
+	)
+	(junction
+		(at 45.72 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eaedef2-e6ac-4106-8a84-30cde1eb3ce4")
+	)
+	(junction
+		(at 68.58 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d430437-23e5-496e-a2cc-66948caafb2f")
+	)
+	(junction
+		(at 119.38 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1a92bc0-4c4f-4020-8c3d-d4589c5910f7")
+	)
+	(junction
+		(at 83.82 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8a2b65d-5115-4402-bfaa-613876afa130")
+	)
+	(junction
+		(at 45.72 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acee07c6-277e-49fa-a722-feda29c99d39")
+	)
+	(junction
+		(at 58.42 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5c1c52a-7641-4ccc-9176-ea70728e7e7f")
+	)
+	(junction
+		(at 58.42 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cef04f13-5b8c-41db-831d-6a5ef56855b8")
+	)
+	(junction
+		(at 119.38 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf667295-3343-4e09-9873-229ce317deea")
+	)
+	(junction
+		(at 81.28 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d039ecca-e25b-45d5-8c74-65e71a80db38")
+	)
+	(junction
+		(at 81.28 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d484af2e-9c0c-4a54-bd4e-59b3fff4cf0d")
+	)
+	(junction
+		(at 109.22 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d93632f8-886f-4500-b519-8261dbbf49b7")
+	)
+	(junction
+		(at 71.12 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9caefae-a569-44db-a1f7-dc565c561c3f")
+	)
+	(junction
+		(at 81.28 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0150442-d807-4af0-82d5-1a35c046a65d")
+	)
+	(wire
+		(pts
+			(xy 71.12 78.74) (xy 71.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae57936-e620-46f7-8cf9-d246979f03b1")
+	)
+	(wire
+		(pts
+			(xy 81.28 93.98) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152dba76-ffca-4bcf-bfec-c215cf79e453")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 58.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e9bd45-66c5-4ae0-a35a-2b40f43e1bd0")
+	)
+	(wire
+		(pts
+			(xy 55.88 106.68) (xy 68.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4a1b0b-27bd-40af-a5d6-a06ccf6e87a8")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 83.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bc67ac-48dc-416a-8c1b-72bc31da7a65")
+	)
+	(wire
+		(pts
+			(xy 83.82 78.74) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e8af5f-9993-4b2c-8445-bc35929f1bc0")
+	)
+	(wire
+		(pts
+			(xy 58.42 111.76) (xy 58.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e47cd4-edda-4126-a585-5fe6c47cd549")
+	)
+	(wire
+		(pts
+			(xy 71.12 86.36) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ceda2e-b172-4355-84c9-8ce7ed806005")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348b512c-78b0-4297-88b6-d0ed25e8e6c4")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d9b34e-08d5-4a00-b968-ad0cee41640a")
+	)
+	(wire
+		(pts
+			(xy 55.88 93.98) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36da9ebf-156b-4e0e-b4bc-723fe5be5fcf")
+	)
+	(wire
+		(pts
+			(xy 45.72 99.06) (xy 45.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d82022a-55ce-4b63-a05a-2770e81e2686")
+	)
+	(wire
+		(pts
+			(xy 68.58 132.08) (xy 81.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e554c8c-2aa7-4c72-907b-c792ba5eb738")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d147db-a0b3-46a1-9488-3ec03a265155")
+	)
+	(wire
+		(pts
+			(xy 81.28 119.38) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45803d9c-85f1-4705-ae4c-96d74c43e1cd")
+	)
+	(wire
+		(pts
+			(xy 71.12 99.06) (xy 71.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6b7dbf-3ff5-4c99-8b29-99ff00a33bfd")
+	)
+	(wire
+		(pts
+			(xy 45.72 78.74) (xy 45.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503dc98f-80a0-469c-821a-1c80677ecd4f")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537f47da-febc-4273-8844-4a3519a728ce")
+	)
+	(wire
+		(pts
+			(xy 68.58 119.38) (xy 81.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9e70a6-8df7-42dc-adf4-8d8ab1a9b443")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb07820-ed2f-487a-a2bf-c13cf8972caf")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 58.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ecc44c-0699-47af-9a60-911b86838e2a")
+	)
+	(wire
+		(pts
+			(xy 106.68 119.38) (xy 119.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c62dc0-2494-4a4e-bfbb-567572266ce5")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a6d2c5-a6fb-4ca0-acd4-c55806f9c5f3")
+	)
+	(wire
+		(pts
+			(xy 45.72 86.36) (xy 45.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7917bcc9-6545-4755-9851-3ac80b9883b0")
+	)
+	(wire
+		(pts
+			(xy 83.82 99.06) (xy 83.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b609c84-3d8c-44c7-88df-e40c5f6d6f29")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fa7393-d102-447b-a334-6d913b3e4f26")
+	)
+	(wire
+		(pts
+			(xy 71.12 111.76) (xy 71.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fa3cea-d013-42a4-95fc-aaef6f023601")
+	)
+	(wire
+		(pts
+			(xy 55.88 132.08) (xy 68.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a53ca0-ac61-424f-a2a5-afbf4cb85039")
+	)
+	(wire
+		(pts
+			(xy 93.98 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b9309d-d910-49af-86ea-1a3a77202b8a")
+	)
+	(wire
+		(pts
+			(xy 81.28 132.08) (xy 125.73 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efb3af2-62a2-4a63-b4d0-795f7ef2c74e")
+	)
+	(wire
+		(pts
+			(xy 96.52 78.74) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1fd4d1-34c9-464b-ac1e-92db6370a760")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 96.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb818a0-0aec-4d9d-ba5e-131ed0b6efbd")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f7a163-f3e2-4f1a-b5bd-30bbbcc0e5f2")
+	)
+	(wire
+		(pts
+			(xy 68.58 93.98) (xy 81.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2a357c-047f-41e1-a364-e6c629e8bc64")
+	)
+	(wire
+		(pts
+			(xy 109.22 86.36) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87fca34-7697-4207-a527-5430383c9aa9")
+	)
+	(wire
+		(pts
+			(xy 81.28 106.68) (xy 93.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baad9c03-5f27-499d-b8e1-3475bef952d6")
+	)
+	(wire
+		(pts
+			(xy 55.88 119.38) (xy 68.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd625baf-b232-402b-820c-cc58d4caff52")
+	)
+	(wire
+		(pts
+			(xy 68.58 106.68) (xy 81.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d42c1f-17e0-4bed-93bd-e6ee0f1a6874")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 109.22 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12b92aa-dc34-4c0b-abf0-67c51fa7d140")
+	)
+	(wire
+		(pts
+			(xy 106.68 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e773dcee-2926-43df-940a-fac4d8a4c94f")
+	)
+	(wire
+		(pts
+			(xy 45.72 111.76) (xy 45.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed406880-ef24-4f9c-8050-7a1a6f6f2d3f")
+	)
+	(wire
+		(pts
+			(xy 119.38 119.38) (xy 125.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f6d119-a976-4024-9ff6-55893f28ede6")
+	)
+	(global_label "C5"
+		(shape input)
+		(at 109.22 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "031f9c40-a82d-4b6f-b1a4-61df588b9bef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 73.2753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R0"
+		(shape input)
+		(at 199.39 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "089606cd-ce81-4f40-8f1c-b0160eae5b1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8547 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5"
+		(shape input)
+		(at 199.39 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fea6bf1-d5ce-4fd1-a9c9-07cd4f6c3d1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8547 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R3"
+		(shape input)
+		(at 125.73 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "127811ff-a097-4d73-a293-803772b60d36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.1947 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 199.39 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25d10694-4cce-49a5-823b-6a773807b7a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8547 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-_R"
+		(shape input)
+		(at 163.83 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d2e7d15-eb24-4130-a716-c766f1fbf68b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.7648 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST_R"
+		(shape input)
+		(at 176.53 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f169506-537d-413e-b150-4b2741d21172")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.8601 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_R"
+		(shape input)
+		(at 163.83 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3673dac9-42e1-42df-b1de-4ae98cafb618")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.7367 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 96.52 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d766417-5efb-4080-9a5b-865770185729")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 73.2753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 83.82 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45443aad-6214-48a9-8598-33aafe9dbe78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 73.2753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C0"
+		(shape input)
+		(at 45.72 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f9222b7-cb64-48ac-95a5-9da879011d57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 73.2753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1"
+		(shape input)
+		(at 199.39 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5363d013-9ccc-4648-b0d9-3f35baf64583")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8547 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C0"
+		(shape input)
+		(at 199.39 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58ef2a9a-4b5d-41b9-835c-b275cdfae904")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8547 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_R"
+		(shape input)
+		(at 186.69 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ee338e5-28b9-410a-891d-f230f73f0150")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.7833 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+_R"
+		(shape input)
+		(at 255.27 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6576f7f0-8fc6-4473-a21c-2ecd33f30367")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.3352 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R0"
+		(shape input)
+		(at 125.73 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71ac97e4-2b9c-4711-8ab5-e44870511301")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.1947 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-_R"
+		(shape input)
+		(at 232.41 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "833a849d-ffb3-412e-b58f-0b9c06f9faeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.3448 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 71.12 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "920e0ff9-9c8b-4adb-836c-7977e186684a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 73.2753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 199.39 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93ca7c2f-a24b-4b31-8bcd-b9e58931db0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8547 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R3"
+		(shape input)
+		(at 163.83 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b29229d7-99d2-49ae-ab75-a425bb0dfacd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.3653 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+_R"
+		(shape input)
+		(at 199.39 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c04effbe-7b1b-498c-9592-152a363006ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.4552 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 125.73 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4fef111-6036-4144-9970-d9135cf3a843")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.1947 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 58.42 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfda7b9a-d193-484f-8df3-504d632f506f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 73.2753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 199.39 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e544ab1d-43c8-4917-8115-9e232713162a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8547 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 163.83 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8e43ebb-4a00-4556-af6e-e9f2727f4495")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.3653 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 199.39 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee03b390-d1d1-4461-905b-ad80b0cdeb43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8547 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1"
+		(shape input)
+		(at 125.73 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4943949-16e6-4d76-9b4c-e35573e5727d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.1947 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST_R"
+		(shape input)
+		(at 199.39 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7f282af-bce2-4eb6-8920-9366ea78feae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.0599 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 63.5 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09c072d7-b635-466b-ab0e-b12d084909de")
+		(property "Reference" "SW20"
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 63.5 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 63.246 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cdf32a2-4f54-43ce-9ee1-ac8b99c35b0d")
+		)
+		(pin "2"
+			(uuid "7fb49d42-ec0b-4c14-9d71-f4ab0aaa47d2")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 181.61 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f24c9f6-1e50-4bd5-87d0-b46cd5485372")
+		(property "Reference" "SW43"
+			(at 181.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "buttons:SW_SMD_5x5"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 181.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15fc6942-17cf-4f75-bf3d-247c9232a15a")
+		)
+		(pin "1"
+			(uuid "0d724307-148a-49c5-908c-20030e6ea33d")
+		)
+		(instances
+			(project ""
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 119.38 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "248e61d9-8c2c-4228-93a6-23c2d801d9ba")
+		(property "Reference" "D6"
+			(at 121.92 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 123.825 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 124.206 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15af485a-160a-4292-8a82-f932791318c0")
+		)
+		(pin "1"
+			(uuid "eb29ff2d-a8f5-4aeb-8e3a-f7678db1661f")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 114.3 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24e742a7-54c1-4f4c-9fe6-e86504fe5ffc")
+		(property "Reference" "SW18"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 114.3 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 114.046 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ba0482e-4561-449e-ada4-6b5ef46844cc")
+		)
+		(pin "2"
+			(uuid "b99c175c-6ae8-47f8-9b77-35ad51526fae")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 68.58 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26f76019-ff18-4c43-8749-1276f64d3ea3")
+		(property "Reference" "D8"
+			(at 71.12 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 73.025 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 73.406 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6438c0e1-893a-4a4c-a024-4b030f3ec03b")
+		)
+		(pin "1"
+			(uuid "2b4f305d-227c-401c-9ec2-f88566026f43")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 76.2 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c2b4d26-677e-48df-bcea-573d3fc8063a")
+		(property "Reference" "SW21"
+			(at 76.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 76.2 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 76.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 75.946 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c14c1db-fc99-450b-8e56-c91c7ed95c99")
+		)
+		(pin "2"
+			(uuid "b369c6a4-59b1-4a58-bf51-e7dfb8b4db17")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 55.88 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "329f09c8-94a5-45e4-814c-4e38fbff9212")
+		(property "Reference" "D13"
+			(at 58.42 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 60.325 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 60.706 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a92237e4-5134-4dad-9da0-333335090e76")
+		)
+		(pin "1"
+			(uuid "4d358787-e089-406c-bf47-4a3c9cc57ecd")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 101.6 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "354d7d5c-cfce-4479-a83d-7000e5478e6b")
+		(property "Reference" "SW11"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 101.6 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 101.346 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cbc3051-0535-44b9-8943-19289ec3d89d")
+		)
+		(pin "2"
+			(uuid "878a26aa-60e7-45bf-8aee-2499a9176bfe")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 93.98 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "425bc507-c3e0-4f22-b7ec-f048e1bf3c0d")
+		(property "Reference" "D16"
+			(at 96.52 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 98.425 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 98.806 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb2f3889-a627-409a-87ce-f786319968da")
+		)
+		(pin "1"
+			(uuid "cce6cb65-10d7-4e1f-a4ac-5b256d3b7acd")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 76.2 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47497d68-0f20-477e-9c1b-4dacadf0154e")
+		(property "Reference" "SW15"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 76.2 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 75.946 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cf8c0dc-f6af-4cf1-a7ed-31fe74e23da9")
+		)
+		(pin "2"
+			(uuid "d99958c1-88b9-478c-9977-a8cf02011c1e")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 81.28 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ba02c5-9a59-4674-9570-8dc6c267d2f8")
+		(property "Reference" "D9"
+			(at 83.82 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 85.725 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 86.106 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4827671-7a8c-4841-b4d9-99ebc8838141")
+		)
+		(pin "1"
+			(uuid "6e70a2d5-d18b-473c-8431-7fad97ff8f43")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 55.88 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dd98954-e9e5-42da-b42d-611c71520ff1")
+		(property "Reference" "D1"
+			(at 58.42 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 60.325 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 60.706 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ddc8114-cefe-46f7-8cf8-bcd029cbac67")
+		)
+		(pin "1"
+			(uuid "c795b4b9-9250-4297-9782-37116424180f")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 106.68 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f17b251-a82a-4592-a2fe-a186896f8126")
+		(property "Reference" "D11"
+			(at 109.22 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 109.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 111.125 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 111.506 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "088c4442-2dcc-4b3e-8e06-14527422ec5a")
+		)
+		(pin "1"
+			(uuid "9e350054-b088-412a-865c-c66a636314a8")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:BAT")
+		(at 243.84 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53521045-960f-42de-a3d1-d55436133d75")
+		(property "Reference" "B1"
+			(at 243.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connectors:BAT_RECT"
+			(at 243.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "503e8b4b-ff3a-4ee5-9016-2e5cf4ab0a6c")
+		)
+		(pin "1"
+			(uuid "69232ee1-c6f0-4cba-864d-ab9ecdb0b82d")
+		)
+		(instances
+			(project ""
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 106.68 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5683a890-3c14-4e17-894e-6326c9f67b63")
+		(property "Reference" "D17"
+			(at 109.22 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 111.125 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 111.506 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ebd8962-8f1c-4d61-84f7-e37d4dbb64ad")
+		)
+		(pin "1"
+			(uuid "f5b933db-324c-4eba-b5ef-8f1e0cf54847")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 81.28 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b237539-709f-4175-a8fe-59bb0c0ece9a")
+		(property "Reference" "D3"
+			(at 83.82 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 85.725 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 86.106 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a812bb3a-df04-4f1a-bc61-5774391ce9fc")
+		)
+		(pin "1"
+			(uuid "449e86fe-91f1-4bfe-ba21-9d871f00db26")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 63.5 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "612155d8-0a77-4bb3-8407-a86f01fa630f")
+		(property "Reference" "SW8"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 63.5 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 63.246 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e6c41ec-322f-420c-a26e-498af79fc381")
+		)
+		(pin "2"
+			(uuid "c9e40250-fbda-4930-8514-47362b78c448")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 50.8 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ae94036-44e2-4fce-8ef8-73b5dca50b67")
+		(property "Reference" "SW1"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 50.546 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e597b986-2f42-4645-928e-4f9c5de91e7b")
+		)
+		(pin "2"
+			(uuid "9f18f86c-9356-499d-8642-150e9b23f3cb")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 50.8 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bf9cd61-750c-4f91-8d6a-521e6d6ad0f9")
+		(property "Reference" "SW7"
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 50.546 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b19f9ec6-5d76-4f34-9da4-55b605fbcab5")
+		)
+		(pin "2"
+			(uuid "26d52b53-99f0-4aa0-a2b3-598447a629e1")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 81.28 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7222526b-c773-411d-ac3c-cbc16d0a8bd1")
+		(property "Reference" "D21"
+			(at 83.82 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 85.725 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 86.106 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6159778-d5bb-4dc5-b838-972dbfc46fe7")
+		)
+		(pin "1"
+			(uuid "063230d3-6fa9-4118-b86e-819ba8bf0b0f")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 114.3 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "756a4933-698a-43f0-b5db-5a0c9ec1901b")
+		(property "Reference" "SW12"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 114.3 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 114.046 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0e6be5d-c884-4ded-8dcd-bfa912319a5e")
+		)
+		(pin "2"
+			(uuid "2800bf88-8d4d-4293-a7f4-335a7297eb9e")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 63.5 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e0250f9-b68b-4c2b-af31-0b2e5d5f289b")
+		(property "Reference" "SW2"
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 63.5 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 63.246 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e409479b-521d-4793-b558-217915355367")
+		)
+		(pin "2"
+			(uuid "4e84c476-f9f8-421e-b3b1-361428535546")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 93.98 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "805539ec-9cd9-402b-9b6b-6dab7960aabf")
+		(property "Reference" "D4"
+			(at 96.52 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 96.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 98.425 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 98.806 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a30bacd-6286-4c14-a831-93bc1297f6f2")
+		)
+		(pin "1"
+			(uuid "9426b4cc-6708-459e-bfa4-667886604083")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 68.58 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87c55406-a3c4-41d8-b912-e6775f31c5bf")
+		(property "Reference" "D20"
+			(at 71.12 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 73.025 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 73.406 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c47ee0eb-adf3-4eba-b011-d2210c0d48c5")
+		)
+		(pin "1"
+			(uuid "0a5af83a-4777-4ab6-b3bd-7068963dcd66")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 93.98 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9216caaf-9b89-4de6-b448-b60afd9044ee")
+		(property "Reference" "D10"
+			(at 96.52 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 98.425 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 98.806 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48795e0b-b659-4a8c-860e-9b03e9438a3f")
+		)
+		(pin "1"
+			(uuid "7c77b670-d893-401c-9576-29e9eeb636af")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 50.8 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b49974b-f86c-4ab0-b101-e551e5628439")
+		(property "Reference" "SW13"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 50.546 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d65c76de-f4a5-4766-ab84-8f78bdeaabe3")
+		)
+		(pin "2"
+			(uuid "889e6747-267a-42dc-af1b-44ee461c8490")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 88.9 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d69dcfd-7b63-4ae7-862a-dd70fee2fc3d")
+		(property "Reference" "SW10"
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 88.646 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e629f05-bbe5-4c40-97cb-c9166f5f8db9")
+		)
+		(pin "2"
+			(uuid "c8e5e541-04a4-4d9f-a8f2-45902ecb93a4")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 55.88 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d7d2672-373b-4d3e-86d5-023a15332514")
+		(property "Reference" "D7"
+			(at 58.42 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 60.325 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 60.706 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2764e56-ffd3-492c-ae4b-f8ccc4b3c644")
+		)
+		(pin "1"
+			(uuid "90188a31-238f-4982-84dc-28d48a956bcf")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 119.38 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9de92fef-6107-4404-bf44-62bd814df66b")
+		(property "Reference" "D18"
+			(at 121.92 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 121.92 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 123.825 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 124.206 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f8edd19-be20-4acd-886e-b04b8bc65fa2")
+		)
+		(pin "1"
+			(uuid "448c93cb-916b-46b8-9af5-eaf251f9bd06")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 68.58 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acce70c6-76ac-4b14-9b97-c15e77a673bf")
+		(property "Reference" "D14"
+			(at 71.12 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 71.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 73.025 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 73.406 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d44a852-d37d-4e0d-b313-f40bd0ba240c")
+		)
+		(pin "1"
+			(uuid "a6e74403-978d-4406-906b-ad86a61abaf5")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 106.68 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeb56f93-9fc4-400f-b056-306245c0e5e8")
+		(property "Reference" "D5"
+			(at 109.22 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 109.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 111.125 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 111.506 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d193810f-fe14-4941-86e8-d6d4c9d13b4a")
+		)
+		(pin "1"
+			(uuid "e4ea5301-701d-4bb0-a94e-f0dd775b6251")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 63.5 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b03a9218-3eb6-4425-b142-5f3e7538440f")
+		(property "Reference" "SW14"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 63.5 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 63.246 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69a96bce-6132-4f8b-8a6f-872997df4658")
+		)
+		(pin "2"
+			(uuid "28b6c77e-a07f-4ae2-beaf-9de7399334fb")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 55.88 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d2eb04-0828-4625-b290-44e6a4e3d23a")
+		(property "Reference" "D19"
+			(at 58.42 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 60.325 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 60.706 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3daf99f1-6296-4666-be14-1611112ae2a6")
+		)
+		(pin "1"
+			(uuid "188117f1-2bf9-48f0-a1b7-334805c6330c")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 101.6 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b58c001e-d6b9-4aac-8f33-40e916c0fda5")
+		(property "Reference" "SW5"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 101.6 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 101.346 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71654c5c-6795-4109-8b0a-bda91ee8a493")
+		)
+		(pin "2"
+			(uuid "842ffd6d-2a71-4132-9988-c07d91bba03b")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 76.2 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb1dafd3-aa6c-4b34-b3c3-92e86f21a215")
+		(property "Reference" "SW3"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 76.2 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 75.946 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cdecad2-818f-42d5-8e45-17069f27b050")
+		)
+		(pin "2"
+			(uuid "4511f105-1233-49aa-9557-cbae62b2d273")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 81.28 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1c2e5a-ff40-4184-88ff-63b9f2263bed")
+		(property "Reference" "D15"
+			(at 83.82 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 85.725 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 86.106 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0949457-659d-450d-9c08-e651ed3f585f")
+		)
+		(pin "1"
+			(uuid "daab795b-4c38-42b4-9e87-e0c5dc345515")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 101.6 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d298936e-9ebd-4f9e-88bb-6c2d3fd9eaab")
+		(property "Reference" "SW17"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 101.6 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 101.346 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16c7feb5-71de-4479-96dc-c88e64db45d5")
+		)
+		(pin "2"
+			(uuid "3ad1b232-3c94-4082-b085-36ef1b13dbfe")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:U_ProMicro_nRF52840")
+		(at 181.61 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2b9e648-264f-41dc-a5b4-deaba03140e9")
+		(property "Reference" "U1"
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mcu:U_ProMicro_nRF52840_MidMount"
+			(at 184.15 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pro Micro nRF52840 microcontroller board symbol"
+			(at 182.118 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "e05cc455-6505-434b-b209-7224ef8bdb32")
+		)
+		(pin "9"
+			(uuid "4e183149-e9c2-4d15-b00b-8d006e96a75b")
+		)
+		(pin "3"
+			(uuid "adaebf1a-f6b2-4a5e-a7a6-fc533a41f27f")
+		)
+		(pin "22"
+			(uuid "32a6497e-45b8-4560-bfa1-2d6e7b39bae5")
+		)
+		(pin "4"
+			(uuid "1c4eef7d-daf1-4bcc-989c-bd1857ddf46d")
+		)
+		(pin "18"
+			(uuid "6dfb03e2-956f-4711-9444-c9ff71666337")
+		)
+		(pin "11"
+			(uuid "178bd14c-6e19-44dc-a07c-b28785867bac")
+		)
+		(pin "15"
+			(uuid "246ce8d6-1f6f-450e-b6ad-caf77f53e853")
+		)
+		(pin "5"
+			(uuid "a0fe7ed5-75a3-4d8a-a316-ac036bb64c46")
+		)
+		(pin "24"
+			(uuid "6e1e46e0-2a39-4c48-a29f-65c1108bb643")
+		)
+		(pin "2"
+			(uuid "4edefa15-d257-4036-ae29-115e35375be2")
+		)
+		(pin "7"
+			(uuid "c47bdd3e-cbbc-42b7-85d3-bbd9c4e7ee55")
+		)
+		(pin "1"
+			(uuid "20437be4-d095-4eb4-baca-1814a8757c01")
+		)
+		(pin "8"
+			(uuid "c8f0932d-eb4a-4b6e-b45a-3a06f0a82659")
+		)
+		(pin "10"
+			(uuid "ccc272f2-0e0a-4d24-9dbe-25c871c3778d")
+		)
+		(pin "12"
+			(uuid "0a2db3f6-e01e-43d7-8c5c-28c95512a93b")
+		)
+		(pin "23"
+			(uuid "f77996e0-3066-478e-85ee-b85d6760f0ab")
+		)
+		(pin "21"
+			(uuid "2d3723c0-3b7b-4e13-a1d5-86962fbde26a")
+		)
+		(pin "20"
+			(uuid "0bed4a59-e282-425d-aa54-32ef56afaff5")
+		)
+		(pin "19"
+			(uuid "35fd4469-7391-4250-a0b2-dedf762874a4")
+		)
+		(pin "17"
+			(uuid "5f24f336-0828-4829-bed5-bfa6c8143d72")
+		)
+		(pin "16"
+			(uuid "8170aab9-6d9f-49a5-9bd3-946e1366eeb3")
+		)
+		(pin "13"
+			(uuid "9d86da8d-cc06-4fb9-95e5-61817cddedae")
+		)
+		(pin "14"
+			(uuid "ba6d6158-d539-4215-b6e1-1629c3603da0")
+		)
+		(pin "0"
+			(uuid "dacfc7aa-6550-45fe-814d-a08efb80fbef")
+		)
+		(pin "25"
+			(uuid "fb65f8cd-06ad-4807-8575-abe3cc8b10ee")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 88.9 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3167d88-fa79-45de-8bd8-83ae7c7dad3c")
+		(property "Reference" "SW16"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 88.646 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c037bb0-3321-4347-9b0a-df788676b817")
+		)
+		(pin "2"
+			(uuid "12b89bb0-d20f-4f7f-950b-d4ca13a755fd")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 50.8 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d57edda3-5c39-4cbc-957c-ef43899405d9")
+		(property "Reference" "SW19"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 50.546 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17f01645-d176-415e-a54f-968236c942e7")
+		)
+		(pin "2"
+			(uuid "fa69d3f2-bb43-4836-8199-8242f56c3e46")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 88.9 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e817bd-16f6-4246-9cbc-b6fe6618d7ba")
+		(property "Reference" "SW4"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 88.646 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75179549-59ae-447b-9ad6-d15c5a87609d")
+		)
+		(pin "2"
+			(uuid "c189fda0-65ab-4374-89b0-3966c68eb286")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 76.2 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5de0745-bdb9-4e58-960e-f072583f56ca")
+		(property "Reference" "SW9"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 76.2 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 75.946 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acbe0a76-7a83-4eea-8136-268155859591")
+		)
+		(pin "2"
+			(uuid "f25579cc-4530-4718-892b-bc1a89850df2")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 119.38 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2a97d54-c568-4355-a6e2-2c31f8c37c7e")
+		(property "Reference" "D12"
+			(at 121.92 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 123.825 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 124.206 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57f3d4a9-edec-4a1e-bc5a-acd1c114cb79")
+		)
+		(pin "1"
+			(uuid "c748d177-1df4-417b-9a8c-c5a13bb40ac8")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:SW_Push")
+		(at 114.3 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5db6863-2faa-4507-a218-2916798f999f")
+		(property "Reference" "SW6"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 114.3 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "switches:SW_Choc_V1V2_HS"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary push button, 2 pins"
+			(at 114.046 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18b6ad40-1556-456f-929b-e620ef98f530")
+		)
+		(pin "2"
+			(uuid "0aafd229-2cdb-4e4f-9f06-5620c14095fb")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inpulib:D_1N4448W")
+		(at 68.58 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fda96dfe-f691-4930-adff-e47b64368062")
+		(property "Reference" "D2"
+			(at 71.12 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:D_SOD-323_Increased"
+			(at 73.025 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+			(at 73.406 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9a3d811-eefa-4976-9d30-9c9e05821a08")
+		)
+		(pin "1"
+			(uuid "5b9c3ed4-efd6-4b7e-ab2f-2359412aa6c2")
+		)
+		(instances
+			(project "Lapka42"
+				(path "/86802c69-dc1c-46d6-890c-a0f069aef8d4/60182e08-65d4-4efe-8fbb-79fb9149c2ec"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

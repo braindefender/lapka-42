@@ -1,0 +1,133 @@
+(footprint "D_SOD-323_Increased"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "General-purpose diode, SOD-323 package, SMD mounting")
+	(property "Reference" "D20"
+		(at -0.000007 -1.850002 180)
+		(layer "F.Fab")
+		(uuid "7d465f30-1881-4227-b729-2bf58d1df392")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0.099997 1.899996 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dba7ba0d-ab3b-4228-a005-fa40b882997f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90cf20f3-7cb2-41da-983b-eb0698f1034f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "High-speed switching diode 1N4448W, SOD-123 package, SMD, 100 V, 0.15 A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a215e61-9497-4c94-a76c-7f588470201d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.151601 -0.228601)
+		(end -0.1516 0.254)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d9b336d-89dc-4582-a475-4012146ec306")
+	)
+	(fp_poly
+		(pts
+			(xy 0.1516 -0.239818) (xy -0.1516 0.0127) (xy 0.151601 0.242782)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7c1e04a5-d55e-4c6e-9dd2-768c8dc87f6f")
+	)
+	(fp_line
+		(start -0.825 -0.625)
+		(end -0.825 0.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d950998c-6ee1-49e6-b87b-59791eab025d")
+	)
+	(fp_line
+		(start -0.825 -0.625)
+		(end 0.825 -0.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "30178799-91a4-44d2-9909-663023c77de0")
+	)
+	(fp_line
+		(start -0.825 0.625)
+		(end 0.825 0.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1e1b5875-3011-4c4b-921d-48e419325601")
+	)
+	(fp_line
+		(start 0.825 -0.625)
+		(end 0.825 0.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0d9d8169-6d1e-4303-b2a3-b60890109a40")
+	)
+	(pad "1" smd roundrect
+		(at -1.05 -0.000001)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cd33401b-3d79-46fe-bda9-4b957105e811")
+	)
+	(pad "2" smd circle
+		(at 1.05 0.003546)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "18d2b0c5-6ec1-4fe2-9b35-57b3c481221b")
+	)
+	(embedded_fonts no)
+)

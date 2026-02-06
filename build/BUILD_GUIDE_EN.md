@@ -31,6 +31,8 @@ Don't be fooled by the large declared capacity (200-250+), often it's only 120-1
 - [AliExpress | EasyLander](https://aliexpress.ru/item/1005006119986947.html?sku_id=12000048850576528)
 
 ### nRF52840 MCU
+> Notice the USB-C connector [difference](#mcu-usb-c-difference)
+
 - [AliExpress | TENSTAR Store](https://aliexpress.ru/item/1005006282506884.html)
 - [AliExpress | Simple Robot Store](https://aliexpress.ru/item/1005008896713501.html)
 
@@ -55,6 +57,8 @@ However, using Hot-Swap Pin Headers is more convinient even if you won't use hot
 I highly recommend checking out [Watchman's Switch Database](https://aroum.github.io)
 
 ### Choc-Spacing Keycaps
+> Currently, there are no keycaps for Choc v2 with Choc spacing on the market. Of the open-source options, I can only suggest [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps).
+
 - [GitHub | KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps)
 - [GitHub | GammaCaps](https://github.com/sqdbruh/gammacaps)
 
@@ -64,27 +68,27 @@ I highly recommend checking out [Watchman's Switch Database](https://aroum.githu
 
 2. Separate the boards from the shipping connectors. This can be done by gently breaking them off, holding them with your fingers near the break seam.
 
-![](./assets/build_01.jpg)
+![](./Assets/build_01.jpg)
 
 3. Apply solder paste to the hotswap socket pads and solder the sockets. The socket should be positioned so that the larger part faces out to the side and the smaller part faces the center.
 
-![](./assets/build_02.jpg)
+![](./Assets/build_02.jpg)
 
 > I usually apply solder paste to all the socket pads, then install the sockets and solder one right pin of each socket (from right to left) first, holding the socket with my finger. After that, I rotate the board 180° and repeat the same process for the left pin of the socket. This allows me to solder all the sockets quickly and without misalignment.
 
-![](./assets/build_03.jpg)
+![](./Assets/build_03.jpg)
 
-4. Apply solder paste to the pads for the SMD diodes and solder the diodes themselves. The diodes should be positioned according to the markings. Two stripes on the diode body indicate the position of the **cathode** — so we position the diodes so that these two stripes face the controller.
+4. Apply solder paste to the pads for the SMD diodes and solder the diodes themselves. The diodes should be positioned according to the [markings](#1n4148w-t4-diode-markings). Two stripes on the diode body indicate the position of the **cathode** — so we position the diodes so that these two stripes face the controller.
 
-![](./assets/build_04.jpg)
+![](./Assets/build_04.jpg)
 
 5. Prepare the pin headers. To measure how much to break it, push the pins into the holes on either side of the board. You should have exactly 9 pins. We'll need two of these pieces.
 
-![](./assets/build_05.jpg)
+![](./Assets/build_05.jpg)
 
 6. Apply solder paste to the pin header holes and install the pin header in the holes so that the plastic part is on the opposite side from the diodes/sockets. You can solder the outer pins to keep it in place. During soldering, any solder paste remaining on the pins will naturally move down to the pad.
 
-![](./assets/build_06.jpg)
+![](./Assets/build_06.jpg)
 
 7. After the hotswap sockets, diodes, and pin headers have been soldered, thoroughly clean the board of flux. I do this with isopropyl alcohol, wiping the pads with a toothbrush or a stiff brush. After cleaning, leave the board in a warm place to allow all the alcohol or water to dry. While one board is drying, you can begin soldering the other half.
 
@@ -98,12 +102,14 @@ I highly recommend checking out [Watchman's Switch Database](https://aroum.githu
 
 ## Notes
 
-### Choc v2 Keycaps
-
-Currently, there are no keycaps for Choc v2 with Choc spacing on the market. Of the open-source options, I can only suggest [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps).
-
 ### MCU USB-C Difference
 
-![](./assets/nRF52840-usb-c-difference.jpg)
+![](./Assets/nRF52840-usb-c-difference.jpg)
 
 [nRF52840](https://github.com/joric/nrfmicro/wiki/Alternatives#supermini-nrf52840) is sold in several variants, among which there is a difference in the USB Type-C connector. For example, boards from Simple Robot Store have an extended USB-C port, while most boards from other vendors/manufacturers have a standard USB-C port. The MCU enclosure supports both types.
+
+### 1N4148W (T4) Diode markings
+
+Cathode is marked with one or several stripes on the diode body.
+
+![](./Assets/1N4148W-diode.jpg)
