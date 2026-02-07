@@ -57,10 +57,11 @@
 Настоятельно рекомендую изучить [базу свитчей от Watchman'а](https://aroum.github.io)
 
 ### Choc-Spacing Keycaps
-> На данный момент, на рынке нет кейкапов для Choc v2 с Choc-спейсингом. Из open-source вариантов, я могу предложить только [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps).
+> На данный момент, на рынке очень мало кейкапов для Choc v2 с Choc-спейсингом. Из open-source вариантов, я могу предложить только [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps).
 
 - [GitHub | KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps)
 - [GitHub | GammaCaps](https://github.com/sqdbruh/gammacaps)
+- [BeeKeeb | Tai-Hao THCS](https://showcase.beekeeb.com/choc-spaced-chocv2-keycaps/)
 
 ## Инструкция
 

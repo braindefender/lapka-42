@@ -57,10 +57,11 @@ However, using Hot-Swap Pin Headers is more convinient even if you won't use hot
 I highly recommend checking out [Watchman's Switch Database](https://aroum.github.io)
 
 ### Choc-Spacing Keycaps
-> Currently, there are no keycaps for Choc v2 with Choc spacing on the market. Of the open-source options, I can only suggest [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps).
+> Currently, there are almost no keycaps for Choc v2 with Choc spacing on the market. Of the open-source options, I can only suggest [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps).
 
 - [GitHub | KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps)
 - [GitHub | GammaCaps](https://github.com/sqdbruh/gammacaps)
+- [BeeKeeb | Tai-Hao THCS](https://showcase.beekeeb.com/choc-spaced-chocv2-keycaps/)
 
 ## Guide
 
