@@ -58,6 +58,11 @@
 |  R2   |  D16  |   D8   |
 |  R3   |  D10  |   D9   |
 
+## Прошивка
+
+- [`ZMK × Wellum`](https://github.com/braindefender/lapka-zmk-config/tree/lapka-42)
+- `RMK × Wellum` — *в разработке*
+
 ## История изменений
 
 ### v1

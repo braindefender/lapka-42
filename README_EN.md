@@ -58,6 +58,11 @@ Wireless ergonomic split keyboard for those who have paws (:
 |  R2   |  D16  |  D8   |
 |  R3   |  D10  |  D9   |
 
+## Firmware
+
+- [`ZMK × Wellum`](https://github.com/braindefender/lapka-zmk-config/tree/lapka-42)
+- `RMK × Wellum` — *in development*
+
 ## Changelog
 
 ### v1

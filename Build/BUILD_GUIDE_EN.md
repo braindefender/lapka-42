@@ -92,13 +92,13 @@ I highly recommend checking out [Watchman's Switch Database](https://aroum.githu
 
 7. After the hotswap sockets, diodes, and pin headers have been soldered, thoroughly clean the board of flux. I do this with isopropyl alcohol, wiping the pads with a toothbrush or a stiff brush. After cleaning, leave the board in a warm place to allow all the alcohol or water to dry. While one board is drying, you can begin soldering the other half.
 
-8. Make sure the nRF52840 controllers are working properly. To do this, you can flash a test firmware, short the row and column contacts in pairs, and observe how the keys are pressed using [key-test](https://key-test.ru). Or, you can skip this step at your own risk. However, desoldering a faulty controller is the last thing you want to do, so it's better to be safe than sorry.
+8. Make sure the nRF52840 controllers are working properly. To do this, you can flash a [test firmware](https://github.com/braindefender/lapka-zmk-config/tree/lapka-42-test), short the row and column contacts in pairs, and observe how the keys are pressed using [key-test](https://key-test.ru). Or, you can skip this step at your own risk. However, desoldering a faulty controller is the last thing you want to do, so it's better to be safe than sorry.
 
 9. Install the nRF52840 controller on the pins with the SMD components facing the board. There are cutouts on the board for the antenna, USB Type-C connector, and a couple of (transistors?). After installing the controller, apply solder paste to the contacts and solder it. Be careful to hold the controller level when soldering, otherwise one side will stick out beyond the case.
 
 10. Apply solder paste to the tactile button and battery pads and solder them in place. The black wire is the minus, and the red wire is plus. The tactile button also has polarity — position it horizontally.
 
-11. Once all the components are soldered, you can install the case parts and insert the switches into the sockets. Done! Now you can flash the keyboard and use it.
+11. Once all the components are soldered, you can install the case parts and insert the switches into the sockets. Done! Now you can [flash the keyboard](../README_EN.md#firmware) and use it.
 
 ## Notes
 
