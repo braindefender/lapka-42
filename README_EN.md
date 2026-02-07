@@ -1,5 +1,5 @@
 ![](./Assets/Lapka42.png)
-![](./Assets/Lapka42-3.jpg)
+![](./Assets/Lapka42-1.jpg)
 
 [Русская версия этого README](./README.md)
 
@@ -65,5 +65,4 @@ Wireless ergonomic split keyboard for those who have paws (:
 
 ## Photos
 
-![](./Assets/Lapka42-1.jpg)
 ![](./Assets/Lapka42-2.jpg)
