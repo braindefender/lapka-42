@@ -97,7 +97,11 @@ I highly recommend checking out [Watchman's Switch Database](https://aroum.githu
 
 9. Install the nRF52840 controller on the pins with the SMD components facing the board. There are cutouts on the board for the antenna, USB Type-C connector, and a couple of (transistors?). After installing the controller, apply solder paste to the contacts and solder it. Be careful to hold the controller level when soldering, otherwise one side will stick out beyond the case.
 
+![](./Assets/build_07.jpg)
+
 10. Apply solder paste to the tactile button and battery pads and solder them in place. The black wire is the minus, and the red wire is plus. The tactile button also has polarity — position it horizontally.
+
+![](./Assets/build_08.jpg)
 
 11. Once all the components are soldered, you can install the case parts and insert the switches into the sockets. Done! Now you can [flash the keyboard](../README_EN.md#firmware) and use it.
 
