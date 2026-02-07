@@ -13,6 +13,7 @@
 | Switches        | 42     | Kailh Choc v1 / v2      | [Link](#kailh-choc-v1--v2)            |
 | Keycaps         | 42     | Choc-Spacing            | [Link](#choc-spacing-keycaps)         |
 | Pin Header      | 9×2×2  | (Optional)              | [Link](#hot-swap-pin-header)          |
+| Rubber feet     | 16     | 8x2mm                   | [Link](#rubber-feet)                  |
 
 | Name          | Amount | Description             |
 | ------------- | ------ | ----------------------- |
@@ -48,6 +49,9 @@ However, using Hot-Swap Pin Headers is more convinient even if you won't use hot
 ### Tactile Button
 - [AliExpress | LOSUYINE Store](https://aliexpress.ru/item/32815925814.html)
 - [AliExpress | KRYOND Electronic Store](https://aliexpress.ru/item/1005009981759314.html)
+
+### Rubber Feet
+- [AliExpress | Meifang Store](https://aliexpress.ru/item/1005005315398342.html)
 
 ### Kailh PG1350 Hot-Swap Socket
 - [AliExpress | Dafu Store](https://aliexpress.ru/item/1005009449387695.html)

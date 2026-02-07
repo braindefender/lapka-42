@@ -2,17 +2,18 @@
 
 ## Список необходимых деталей
 
-| Деталь          | Кол-во | Описание                  | Ссылка                                  |
-| --------------- | ------ | ------------------------- | --------------------------------------- |
-| PCB             | 2      | Основная плата            |                                         |
-| MCU             | 2      | Контроллер nRF52840       | [Ссылка](#nrf52840-mcu)                 |
-| Батарея         | 2      | Размер 401230, 120-150mAh | [Ссылка](#401230-battery)               |
-| Тактовая кнопка | 2      | 4x4x1.5mm button          | [Ссылка](#tactile-button)               |
-| SMD Диоды       | 42     | 1N4148 (SOD-323)          | [Ссылка](#1n4148-sod-323-diode)         |
-| Hot-Swap сокеты | 42     | Kailh PG1350              | [Ссылка](#kailh-pg1350-hot-swap-socket) |
-| Свитчи          | 42     | Kailh Choc v1 / v2        | [Ссылка](#kailh-choc-v1--v2)            |
-| Кейкапы         | 42     | Choc-Spacing              | [Ссылка](#choc-spacing-keycaps)         |
-| Гребёнка        | 9×2×2  | (Опционально)             | [Ссылка](#hot-swap-pin-header)          |
+| Деталь              | Кол-во | Описание                  | Ссылка                                  |
+| ------------------- | ------ | ------------------------- | --------------------------------------- |
+| PCB                 | 2      | Основная плата            |                                         |
+| MCU                 | 2      | Контроллер nRF52840       | [Ссылка](#nrf52840-mcu)                 |
+| Батарея             | 2      | Размер 401230, 120-150mAh | [Ссылка](#401230-battery)               |
+| Тактовая кнопка     | 2      | 4x4x1.5mm button          | [Ссылка](#tactile-button)               |
+| SMD Диоды           | 42     | 1N4148 (SOD-323)          | [Ссылка](#1n4148-sod-323-diode)         |
+| Hot-Swap сокеты     | 42     | Kailh PG1350              | [Ссылка](#kailh-pg1350-hot-swap-socket) |
+| Свитчи              | 42     | Kailh Choc v1 / v2        | [Ссылка](#kailh-choc-v1--v2)            |
+| Кейкапы             | 42     | Choc-Spacing              | [Ссылка](#choc-spacing-keycaps)         |
+| Гребёнка            | 9×2×2  | (Опционально)             | [Ссылка](#hot-swap-pin-header)          |
+| Силиконовые бамперы | 16     | 8x2mm                     | [Ссылка](#силиконовые-бамперы)          |
 
 | Название      | Кол-во | Описание                  |
 | ------------- | ------ | ------------------------- |
@@ -48,6 +49,9 @@
 ### Tactile Button
 - [AliExpress | LOSUYINE Store](https://aliexpress.ru/item/32815925814.html)
 - [AliExpress | KRYOND Electronic Store](https://aliexpress.ru/item/1005009981759314.html)
+
+### Силиконовые бамперы
+- [AliExpress | Meifang Store](https://aliexpress.ru/item/1005005315398342.html)
 
 ### Kailh PG1350 Hot-Swap Socket
 - [AliExpress | Dafu Store](https://aliexpress.ru/item/1005009449387695.html)
